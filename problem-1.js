@@ -1,16 +1,10 @@
-function newPrice(currentPrice , discount ) 
-  
-    {
-        if(typeof currentPrice !=='number' || discount!== "number"){
-            return 'Invalid';
-        }
-        discount > 0 || discount<=100{
-            return 'Invalid'
-        }
+function newPrice(currentPrice , discount ) {
+      let discountPrice = (currentPrice*discount)/100;
+      let payAmount = (discountPrice-discount)
+        return payAmount;
+        
+      }
+      
+    
 
-    let discountprice = (currentPrice*discount) /100;
-    let mainprice = currentPrice-discountprice;
-return mainprice;
-    }  
-
-console.log(newPrice('10000', 90))
+console.log(newPrice(10000, 90))
