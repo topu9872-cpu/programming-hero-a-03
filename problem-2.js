@@ -12,4 +12,4 @@ function validOtp(otp) {
 
     
 
-console.log(validOtp('12345678'));
+// console.log(validOtp('12345678'));
