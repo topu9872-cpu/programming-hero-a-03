@@ -10,4 +10,4 @@ function newPrice(currentPrice , discount ) {
       
       }
 
-console.log(newPrice(10000, 9.3))
+// console.log(newPrice(10000, 9.3))
