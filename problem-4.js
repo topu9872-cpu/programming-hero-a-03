@@ -17,4 +17,4 @@ function gonoVote(array){
         return 'equal';
     }
 }
-console.log(gonoVote(['ha','na','ha','na','ha','na']));
+// console.log(gonoVote(['ha','na','ha','na','ha','na']));

@@ -1,5 +1,5 @@
 function newPrice(currentPrice , discount ) {
-    if(typeof currentPrice !=='number' || typeof discount !== 'number'|| discount <=0 ||discount >=100){
+    if(typeof currentPrice !=='number' || typeof discount !== 'number'|| discount <=0 ||discount >=100 ||typeof currentPrice ==='string' || typeof discount === 'string'){
         return 'Invalid'}
     
       let discountPrice = (currentPrice*discount)/100;
@@ -10,4 +10,4 @@ function newPrice(currentPrice , discount ) {
       
       }
 
-// console.log(newPrice(10000, 9.3))
+// console.log(newPrice(1000000, 9.3))
